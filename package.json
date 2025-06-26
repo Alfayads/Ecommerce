@@ -9,15 +9,43 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mantine/carousel": "^8.1.1",
+    "@mantine/charts": "^8.1.1",
+    "@mantine/code-highlight": "^8.1.1",
+    "@mantine/core": "^8.1.1",
+    "@mantine/dates": "^8.1.1",
+    "@mantine/dropzone": "^8.1.1",
+    "@mantine/form": "^8.1.1",
+    "@mantine/hooks": "^8.1.1",
+    "@mantine/modals": "^8.1.1",
+    "@mantine/notifications": "^8.1.1",
+    "@mantine/nprogress": "^8.1.1",
+    "@mantine/spotlight": "^8.1.1",
+    "@mantine/tiptap": "^8.1.1",
+    "@reduxjs/toolkit": "^2.8.2",
+    "@tabler/icons-react": "^3.34.0",
+    "@tiptap/extension-link": "^2.22.3",
+    "@tiptap/pm": "^2.22.3",
+    "@tiptap/react": "^2.22.3",
+    "@tiptap/starter-kit": "^2.22.3",
+    "dayjs": "^1.11.13",
+    "embla-carousel": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
+    "lucide-react": "^0.523.0",
+    "next": "15.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.4"
+    "react-redux": "^9.2.0",
+    "recharts": "^2.15.4"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.4",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8.5.6",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1",
+    "tailwindcss": "^4"
   }
 }

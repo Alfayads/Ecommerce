@@ -1,12 +1,15 @@
 'use client'
 
-import { Provider } from "react-redux"
+import { Provider as ReduxProvider } from "react-redux"
 import store from "@/redux/store";
+import { MantineProvider } from '@mantine/core';
 
 export default function Providers({ children }) {
   return (
-    <Provider store={store}>
-      {children}
-    </Provider>
+    <ReduxProvider store={store}>
+      <MantineProvider>
+        {children}
+      </MantineProvider>
+    </ReduxProvider>
   )
 }
